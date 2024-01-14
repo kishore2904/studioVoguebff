@@ -1,5 +1,5 @@
 # Use the official OpenJDK base image for Java 17
-FROM adoptopenjdk:17-jdk-hotspot
+FROM gradle:jdk17
 
 # Set the working directory inside the container
 WORKDIR /app
