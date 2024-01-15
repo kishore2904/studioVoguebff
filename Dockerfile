@@ -21,6 +21,6 @@ RUN echo "Build directory: /studioVogue/build"
 # Expose the port that the application will run on (adjust as needed)
 EXPOSE 8081
 
-RUN ls -la /app/build/libs/
+RUN ls -la /studioVogue/build/libs/
 # Command to run the application
 CMD ["java", "-jar", "build/libs/studioVogue-0.0.1-SNAPSHOT.jar"]
