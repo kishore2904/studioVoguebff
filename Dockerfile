@@ -15,6 +15,9 @@ COPY src src
 # Build the application using Gradle
 RUN ./gradlew build
 
+# Print the path of the build directory
+RUN echo "Build directory: /app/build"
+
 # Expose the port that the application will run on (adjust as needed)
 EXPOSE 8081
 
