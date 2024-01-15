@@ -2,7 +2,7 @@
 FROM gradle:jdk17
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /studioVogue
 
 # Copy the Gradle wrapper files and build.gradle for dependency resolution
 COPY gradlew .
