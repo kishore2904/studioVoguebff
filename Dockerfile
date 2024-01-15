@@ -19,4 +19,4 @@ RUN ./gradlew build
 EXPOSE 8081
 
 # Command to run the application
-CMD ["java", "-jar", "build/libs/studioVoguebff.jar"]
+CMD ["java", "-jar", "build/libs/studioVogue-0.0.1-SNAPSHOT.jar"]
