@@ -16,7 +16,7 @@ COPY src src
 RUN ./gradlew build
 
 # Print the path of the build directory
-RUN echo "Build directory: /app/build"
+RUN echo "Build directory: /studioVogue/build"
 
 # Expose the port that the application will run on (adjust as needed)
 EXPOSE 8081
