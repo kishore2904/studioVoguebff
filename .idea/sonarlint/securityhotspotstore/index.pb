@@ -100,3 +100,7 @@ Q.idea/sonarlint/securityhotspotstore/5/4/54ca8536677879cfc90a2557ab499cd3c9f9c4
 Q.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,1/e/1e45613b6060de813dc92caeb118e08a2124bc35
 w
 G.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233,3/c/3c8c56407c35e5f5ebbd6c7250a79af8128a13a6
+j
+:src/main/java/com/example/studioVogue/config/Firebase.java,6/9/69c0ba891251e4e17bbf8b0a3a0f2dd51a217e86
+p
+@src/main/java/com/example/studioVogue/config/FirebaseConfig.java,6/5/65bc28dd8d29fa1bfd2b5d5733c1cbb124b1f192
