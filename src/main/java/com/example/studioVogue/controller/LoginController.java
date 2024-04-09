@@ -2,6 +2,7 @@ package com.example.studioVogue.controller;
 
 import com.example.studioVogue.bo.Login;
 import com.example.studioVogue.service.LoginService;
+import com.google.firebase.auth.FirebaseAuthException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -35,4 +36,10 @@ public class LoginController {
     public ResponseEntity<String> createUserAccount(@RequestBody Login login) {
         return loginService.createUserAccount(login);
     }
+    @PostMapping("/login")
+    public ResponseEntity<Login> loginUser(@RequestBody Login login) throws FirebaseAuthException {
+        return loginService.getLoginDetails(login);
+    }
+
+    //1. Completely write in
 }

@@ -54,4 +54,13 @@ public class LoginServiceImpl implements LoginService {
         }
 
     }
+
+    @Override
+    public ResponseEntity<Login> getLoginDetails(Login login) throws FirebaseAuthException {
+        Login loginDetails = new Login();
+        firebaseAuth.getUserByEmail(login.getEmail());
+        UserRecord userRecord = firebaseAuth.getUserByEmail(login.getEmail());
+        loginDetails.setEmail(userRecord.getEmail());
+        return ResponseEntity.ok(loginDetails);
+    }
 }
